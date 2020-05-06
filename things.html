@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body style="background: black;">
+
+    <canvas id="canvas" style="display:block;margin:0 auto;border:1px solid #aaa;">
+        您的浏览器尚不支持canvas
+    </canvas>
+
+    <canvas id="offCanvas" style="display: none">
+        您的浏览器尚不支持canvas
+    </canvas>
+
+
+    <button id="status" onclick="buttonClick_try()">
+        现在可以修改物品参数
+    </button>
+    <button id="status1" onclick="buttonClick1_try()">
+        删除最近一个添加的物品
+    </button>
+    <button id="refreshPath" onclick="refresh()">
+        清空路径
+    </button>
+
+    <table>
+        <tr>
+            <td>
+                <button id="icon/BFV.png" onclick="all_buttonClick_try(id)">
+                    BFV
+                </button>
+            </td>
+            <td>
+                <button id="icon/BMP1.png" onclick="all_buttonClick_try(id)">
+                    BMP1
+                </button>
+            </td>
+            <td>
+                <button id="icon/BMP2.png" onclick="all_buttonClick_try(id)">
+                    BMP2
+                </button>
+            </td>
+            <td>
+                <button id="icon/BRDM2.png" onclick="all_buttonClick_try(id)">
+                    BRDM2
+                </button>
+            </td>
+            <td>
+                <button id="icon/BTR80.png" onclick="all_buttonClick_try(id)">
+                    BTR80
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button id="icon/FV432.png" onclick="all_buttonClick_try(id)">
+                    FV432
+                </button>
+            </td>
+            <td>
+                <button id="icon/FV510.png" onclick="all_buttonClick_try(id)">
+                    FV510
+                </button>
+            </td>
+            <td>
+                <button id="icon/FV4034.png" onclick="all_buttonClick_try(id)">
+                    FV4034
+                </button>
+            </td>
+            <td>
+                <button id="icon/M1A2.png" onclick="all_buttonClick_try(id)">
+                    M1A2
+                </button>
+            </td>
+            <td>
+                <button id="icon/MATV.png" onclick="all_buttonClick_try(id)">
+                    MATV
+                </button>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <button id="icon/MercavalMK.png" onclick="all_buttonClick_try(id)">
+                    MercavalMK
+                </button>
+            </td>
+            <td>
+                <button id="icon/MI8.png" onclick="all_buttonClick_try(id)">
+                    MI8
+                </button>
+            </td>
+            <td>
+                <button id="icon/MTLB.png" onclick="all_buttonClick_try(id)">
+                    MTLB
+                </button>
+            </td>
+            <td>
+                <button id="icon/Stryker.png" onclick="all_buttonClick_try(id)">
+                    Stryker
+                </button>
+            </td>
+            <td>
+                <button id="icon/T62.png" onclick="all_buttonClick_try(id)">
+                    T62
+                </button>
+                <button id="icon/t7283.png" onclick="all_buttonClick_try(id)">
+                    t7283
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button id="icon/t7283.png" onclick="all_buttonClick_try(id)">
+                    t7283
+                </button>
+            </td>
+            <td>
+                <button id="icon/Technique.png" onclick="all_buttonClick_try(id)">
+                    Technique
+                </button>
+            </td>
+            <td>
+                <button id="icon/TechniqueM2MG.png" onclick="all_buttonClick_try(id)">
+                    TechniqueM2MG
+                </button>
+            </td>
+            <td>
+                <button id="icon/TechniqueMortar.png" onclick="all_buttonClick_try(id)">
+                    TechniqueMortar
+                </button>
+            </td>
+            <td>
+                <button id="icon/TechniqueTOW.png" onclick="all_buttonClick_try(id)">
+                    TechniqueTOW
+                </button>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button id="icon/TechniqueZU23.png" onclick="all_buttonClick_try(id)">
+                    TechniqueZU23
+                </button>
+            </td>
+            <td>
+                <button id="icon/UH60CAS.png" onclick="all_buttonClick_try(id)">
+                    UH60CAS
+                </button>
+            </td>
+            <td>
+                <button id="icon/UH60M.png" onclick="all_buttonClick_try(id)">
+                    UH60M
+                </button>
+            </td>
+            <td>
+                <button id="icon/UKTruck.png" onclick="all_buttonClick_try(id)">
+                    UKTruck
+                </button>
+            </td>
+            <td>
+                <button id="icon/Ural375.png" onclick="all_buttonClick_try(id)">
+                    Ural375
+                </button>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button id="icon/TechniqueM2MG.png" onclick="all_buttonClick_try(id)">
+                    BFV
+                </button>
+            </td>
+            <td>
+                <button id="icon/Ural4320.png" onclick="all_buttonClick_try(id)">
+                    Ural4320
+                </button>
+            </td>
+            <td>
+                <button id="icon/USTruck.png" onclick="all_buttonClick_try(id)">
+                    USTruck
+                </button>
+</table>
+
+    <script src="Drag_try.js"></script>
+    <script src="Background.js"></script>
+    <script src="pathGenerate.js"></script>
+
+</body>
+</html>
